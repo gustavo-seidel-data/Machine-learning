@@ -1,0 +1,66 @@
+# Diretórios
+venv/
+.venv/
+env/
+.env/
+*.egg-info/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+.DS_Store  # MacOS
+
+# Dados e modelos grandes
+data/raw/
+data/processed/
+data/splits/
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Logs e outputs
+logs/
+*.log
+mlruns/
+wandb/
+tensorboard/
+
+# IDE/Editores
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+
+# Jupyter Notebook
+*.ipynb
+
+# Configurações
+*.env
+*.cfg
+*.conf
+secrets.ini
+
+# System files
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Exceptions (opcional, se quiser versionar algum arquivo específico dentro de pastas ignoradas)
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/splits/.gitkeep
